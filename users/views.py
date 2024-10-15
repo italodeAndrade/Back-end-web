@@ -9,7 +9,7 @@ def register(request):
         form = ClienteForm(request.POST)
         if form.is_valid():
             form.save()  
-            return redirect('')
+            return redirect('users:login')
 
     else:
         form = ClienteForm()
@@ -23,11 +23,12 @@ def login(request):
         try:
             cliente = Cliente.objects.get(email=email)
             if check_password(senha, cliente.senha):
-                return redirect('google.com')  
+                return redirect('https://www.google.com')  
             else:
-                return render(request, 'login.html', {'error': 'Senha incorreta'})
+                return render(request, 'users/login.html', {'error': 'Senha incorreta'})
+        
         except Cliente.DoesNotExist:
 
-            return render(request, 'login.html', {'error': 'Email não encontrado'})
+            return render(request, 'users/login.html', {'error': 'Email não encontrado'})
     
     return render(request, 'users/login.html')
