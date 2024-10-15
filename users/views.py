@@ -3,6 +3,7 @@ from .forms import ClienteForm
 from django.contrib.auth import authenticate
 from .models import Cliente
 from django.contrib.auth.hashers import check_password
+from django.urls import reverse
 
 def register(request):
     if request.method == 'POST':
@@ -23,7 +24,7 @@ def login(request):
         try:
             cliente = Cliente.objects.get(email=email)
             if check_password(senha, cliente.senha):
-                return redirect('https://www.google.com')  
+                return redirect(reverse('filmes:lista_filmes'))
             else:
                 return render(request, 'users/login.html', {'error': 'Senha incorreta'})
         
