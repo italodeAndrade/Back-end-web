@@ -1,10 +1,11 @@
-
 <!DOCTYPE html>
+{% load static %}
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
 </head>
 <body>
 
@@ -12,7 +13,7 @@
         {% csrf_token %}
         <input name='email' placeholder="email..." type="email"> <br><br>
         <input name='senha' placeholder="senha..." type="password"> <br><br>
-        <input type="submit" name="bt">
+        <button type="submit">logar</button>
     </form>
     
 </body>
