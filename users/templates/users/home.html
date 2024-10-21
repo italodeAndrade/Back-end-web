@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieList - Home</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/homestyle.css' %}">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">MovieList</div>
+        <div class="nav-buttons">
+            <a href="{% url 'users:login' %}" class="btn">Login</a>
+            <a href="{% url 'users:register' %}" class="btn btn-secondary">Cadastro</a>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <h1>Bem-vindo ao MovieList</h1>
+        <p>Explore e descubra filmes incríveis!</p>
+    </div>
+
+</body>
+</html>

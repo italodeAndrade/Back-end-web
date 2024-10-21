@@ -4,6 +4,7 @@ from django.contrib.auth import authenticate
 from .models import Cliente
 from django.contrib.auth.hashers import check_password
 from django.urls import reverse
+from django.shortcuts import render
 
 def register(request):
     if request.method == 'POST':
@@ -33,3 +34,6 @@ def login(request):
             return render(request, 'users/login.html', {'error': 'Email não encontrado'})
     
     return render(request, 'users/login.html')
+
+def home(request):
+    return render(request, 'users/home.html')

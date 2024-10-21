@@ -3,8 +3,10 @@ from django.shortcuts import render
 import random
 
 def lista_filmes(request):
-    url = f'http://www.omdbapi.com/?s=avengers&apikey=19cee984'
+    key_words = ['space', 'love', 'war', 'future', 'dark', 'light', 'dream', 'city']
 
+    termo= random.choice(key_words)
+    url = f'http://www.omdbapi.com/?s={termo}&apikey=19cee984'
 
     response = requests.get(url)
 
@@ -14,7 +16,7 @@ def lista_filmes(request):
             filmes = data['Search']
         else:
             filmes = []
-            print("Nenhum filme encontrado ou problema na resposta da API.")
+            print("Nenhum filme encontrado.")
     else:
         filmes = []
         print(f"Erro na requisição: {response.status_code}")

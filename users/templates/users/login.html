@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
+    <title>Login</title>
     <link rel="stylesheet" href="{% static 'css/login.css' %}">
 </head>
 <body>
 
     <form action="{% url 'users:login'%}" method="post">
         {% csrf_token %}
-        <input name='email' placeholder="email..." type="email"> <br><br>
-        <input name='senha' placeholder="senha..." type="password"> <br><br>
-        <button type="submit">logar</button>
+        <input name='email' placeholder="Insira seu email" type="email"> <br><br>
+        <input name='senha' placeholder="Insira sua senha" type="password"> <br><br>
+        <button type="submit">Login</button>
     </form>
     
 </body>
