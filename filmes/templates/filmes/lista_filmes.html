@@ -13,16 +13,14 @@
 
 
     <div class="table-container">
-        <ul>
-            {% for filme in filmes %}
-                <li>
-                    <span>{{ filme.Title }}</span> 
-                    <small>({{ filme.Year }})</small>
-                </li>
-            {% empty %}
-                <li>Nenhum filme encontrado.</li>
-            {% endfor %}
-        </ul>
+        <h1>Filmes do gênero: {{ genero }}</h1>
+            <ul>
+                {% for filme in filmes %}
+                    <li>{{ filme.Title }} ({{ filme.Year }})</li>
+                {% endfor %}
+            </ul>
+
+
     </div>
 
 </body>
