@@ -127,3 +127,29 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'INFO',  # Defina o nível de log (INFO ou outro)
+            'class': 'logging.FileHandler',
+            'filename': 'django_info.log',  # Nome do arquivo de log
+        },
+        'console': {
+            'level': 'DEBUG',  # Logs de DEBUG serão exibidos no console
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file', 'console'],
+            'level': 'INFO',  # Nível de log a partir do qual as mensagens serão capturadas
+            'propagate': True,
+        },
+        '': {
+            'handlers': ['file', 'console'],
+            'level': 'INFO',  # Nível de log para suas visualizações personalizadas
+        },
+    },
+}

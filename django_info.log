@@ -1,0 +1,262 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Requisição para URL: http://www.omdbapi.com/?s=dark&apikey=19cee984 com termo 'dark' e gênero 'Romance'
+Nenhum filme encontrado no gênero 'Romance'. Exibindo todos.
+"GET /filmes/filmes/ HTTP/1.1" 200 1200
+"GET /filmes/filmes/ HTTP/1.1" 200 1200
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /users/login/ HTTP/1.1" 200 666
+"GET /users/login/ HTTP/1.1" 200 666
+"GET /static/css/login.css HTTP/1.1" 304 0
+"GET /static/css/login.css HTTP/1.1" 304 0
+Cliente encontrado com email: italo@icloud.com
+Login bem-sucedido para o cliente: italo@icloud.com
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+Requisição para URL: http://www.omdbapi.com/?s=war&apikey=19cee984 com termo 'war' e gênero 'Sci-Fi'
+Nenhum filme encontrado no gênero 'Sci-Fi'. Exibindo todos.
+"GET /filmes/filmes/ HTTP/1.1" 200 1189
+"GET /filmes/filmes/ HTTP/1.1" 200 1189
+Requisição para URL: http://www.omdbapi.com/?s=love&apikey=19cee984 com termo 'love' e gênero 'Romance'
+Nenhum filme encontrado no gênero 'Romance'. Exibindo todos.
+"GET /filmes/filmes/ HTTP/1.1" 200 1263
+"GET /filmes/filmes/ HTTP/1.1" 200 1263
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 304 0
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Acesso à home.
+"GET / HTTP/1.1" 200 679
+"GET / HTTP/1.1" 200 679
+"GET /static/css/homestyle.css HTTP/1.1" 304 0
+"GET /static/css/homestyle.css HTTP/1.1" 304 0
+"GET /users/login/ HTTP/1.1" 200 666
+"GET /users/login/ HTTP/1.1" 200 666
+"GET /static/css/login.css HTTP/1.1" 304 0
+"GET /static/css/login.css HTTP/1.1" 304 0
+Cliente encontrado com email: italo@icloud.com
+Login bem-sucedido para o cliente: italo@icloud.com
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+Nenhum filme encontrado no gênero 'Action'. Exibindo todos.
+"GET /filmes/filmes/ HTTP/1.1" 200 1213
+"GET /filmes/filmes/ HTTP/1.1" 200 1213
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 304 0
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Requisição para URL: http://www.omdbapi.com/?s=dark&apikey=19cee984 com termo 'dark' e gênero 'Sci-Fi'
+Nenhum filme encontrado na resposta.
+"GET /filmes/filmes/ HTTP/1.1" 200 485
+"GET /filmes/filmes/ HTTP/1.1" 200 485
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 304 0
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Requisição para URL: http://www.omdbapi.com/?s=city&apikey=19cee984 com termo 'city' e gênero 'Sci-Fi'
+Nenhum filme encontrado no gênero 'Sci-Fi'. Exibindo todos.
+"GET /filmes/filmes/ HTTP/1.1" 200 1222
+"GET /filmes/filmes/ HTTP/1.1" 200 1222
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Requisição para URL: http://www.omdbapi.com/?s=space&apikey=19cee984 com termo 'space' e gênero 'Comedy'
+"GET /filmes/filmes/ HTTP/1.1" 200 1213
+"GET /filmes/filmes/ HTTP/1.1" 200 1213
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 304 0
+Requisição para URL: http://www.omdbapi.com/?s=dream&apikey=19cee984 com termo 'dream' e gênero 'Comedy'
+"GET /filmes/filmes/ HTTP/1.1" 200 1281
+"GET /filmes/filmes/ HTTP/1.1" 200 1281
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Requisição para URL: http://www.omdbapi.com/?s=dream&apikey=19cee984 com termo 'dream' e gênero 'Comedy'
+"GET /filmes/filmes/ HTTP/1.1" 200 1281
+"GET /filmes/filmes/ HTTP/1.1" 200 1281
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Requisição para URL: http://www.omdbapi.com/?s=crime&apikey=19cee984 com termo 'crime' e gênero 'Comededia'
+"GET /filmes/filmes/ HTTP/1.1" 200 1291
+"GET /filmes/filmes/ HTTP/1.1" 200 1291
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 304 0
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Requisição para URL: http://www.omdbapi.com/?s=war&apikey=19cee984 com termo 'war' e gênero 'Comedia'
+"GET /filmes/filmes/ HTTP/1.1" 200 1190
+"GET /filmes/filmes/ HTTP/1.1" 200 1190
+Requisição para URL: http://www.omdbapi.com/?s=dark&apikey=19cee984 com termo 'dark' e gênero 'Horror'
+"GET /filmes/filmes/ HTTP/1.1" 200 1199
+"GET /filmes/filmes/ HTTP/1.1" 200 1199
+Requisição para URL: http://www.omdbapi.com/?s=dark&apikey=19cee984 com termo 'dark' e gênero 'Sci-Fi'
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Requisição para URL: http://www.omdbapi.com/?s=war&apikey=19cee984 com termo 'war' e gênero 'Comedy'
+"GET /filmes/filmes/ HTTP/1.1" 200 1189
+"GET /filmes/filmes/ HTTP/1.1" 200 1189
+Requisição para URL: http://www.omdbapi.com/?s=space&apikey=19cee984 com termo 'space' e gênero 'Sci-Fi'
+"GET /filmes/filmes/ HTTP/1.1" 200 1213
+"GET /filmes/filmes/ HTTP/1.1" 200 1213
+Requisição para URL: http://www.omdbapi.com/?s=future&apikey=19cee984 com termo 'future' e gênero 'Comedy'
+"GET /filmes/filmes/ HTTP/1.1" 200 1235
+"GET /filmes/filmes/ HTTP/1.1" 200 1235
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 304 0
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Requisição para URL: http://www.omdbapi.com/?s=dark&apikey=19cee984 com termo 'dark' e gênero 'Romance'
+"GET /filmes/filmes/ HTTP/1.1" 200 486
+"GET /filmes/filmes/ HTTP/1.1" 200 486
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Requisição para URL: http://www.omdbapi.com/?s=space&apikey=19cee984 com termo 'space' e gênero 'Horror'
+Nenhum filme encontrado no gênero 'Horror'. Exibindo todos.
+"GET /filmes/filmes/ HTTP/1.1" 200 1213
+"GET /filmes/filmes/ HTTP/1.1" 200 1213
+Requisição para URL: http://www.omdbapi.com/?s=dream&apikey=19cee984 com termo 'dream' e gênero 'Horror'
+Nenhum filme encontrado no gênero 'Horror'. Exibindo todos.
+"GET /filmes/filmes/ HTTP/1.1" 200 1281
+"GET /filmes/filmes/ HTTP/1.1" 200 1281
+Requisição para URL: http://www.omdbapi.com/?s=crime&apikey=19cee984 com termo 'crime' e gênero 'Thriller'
+Nenhum filme encontrado no gênero 'Thriller'. Exibindo todos.
+"GET /filmes/filmes/ HTTP/1.1" 200 1290
+"GET /filmes/filmes/ HTTP/1.1" 200 1290
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Requisição para URL: http://www.omdbapi.com/?s=love&apikey=19cee984 com termo 'love' e gênero 'Romance'
+Nenhum filme encontrado no gênero 'Romance'. Exibindo filmes fora do gênero.
+"GET /filmes/filmes/ HTTP/1.1" 200 1263
+"GET /filmes/filmes/ HTTP/1.1" 200 1263
+Requisição para URL: http://www.omdbapi.com/?s=crime&apikey=19cee984 com termo 'crime' e gênero 'Comedy'
+Nenhum filme encontrado no gênero 'Comedy'. Exibindo filmes fora do gênero.
+"GET /filmes/filmes/ HTTP/1.1" 200 1288
+"GET /filmes/filmes/ HTTP/1.1" 200 1288
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Requisição para URL: http://www.omdbapi.com/?s=future&apikey=19cee984 com termo 'future' e gênero 'Drama'
+Exibindo filmes fora do gênero.
+"GET /filmes/filmes/ HTTP/1.1" 200 1234
+"GET /filmes/filmes/ HTTP/1.1" 200 1234
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Requisição para URL: http://www.omdbapi.com/?s=future&apikey=19cee984 com termo 'future' e gênero 'Comedy'
+Exibindo filmes fora do gênero.
+"GET /filmes/filmes/ HTTP/1.1" 200 1235
+"GET /filmes/filmes/ HTTP/1.1" 200 1235
+Requisição para URL: http://www.omdbapi.com/?s=city&apikey=19cee984 com termo 'city' e gênero 'Sci-Fi'
+Exibindo filmes fora do gênero.
+"GET /filmes/filmes/ HTTP/1.1" 200 1222
+"GET /filmes/filmes/ HTTP/1.1" 200 1222
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Requisição para URL: http://www.omdbapi.com/?s=city&apikey=19cee984 com termo 'city' e gênero 'Horror'
+Exibindo filmes fora do gênero.
+"GET /filmes/filmes/ HTTP/1.1" 200 1222
+"GET /filmes/filmes/ HTTP/1.1" 200 1222
+Requisição para URL: http://www.omdbapi.com/?s=love&apikey=19cee984 com termo 'love' e gênero 'Drama'
+Exibindo filmes fora do gênero.
+"GET /filmes/filmes/ HTTP/1.1" 200 1261
+"GET /filmes/filmes/ HTTP/1.1" 200 1261
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Requisição para URL: http://www.omdbapi.com/?s=city&apikey=19cee984 com termo 'city' e gênero 'Comedy'
+Exibindo filmes fora do gênero.
+"GET /filmes/filmes/ HTTP/1.1" 200 1222
+"GET /filmes/filmes/ HTTP/1.1" 200 1222
+C:\Users\otavi\Documents\Back-end-web\users\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\users\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\users\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Acesso à home.
+"GET / HTTP/1.1" 200 679
+"GET / HTTP/1.1" 200 679
+"GET /static/css/homestyle.css HTTP/1.1" 304 0
+"GET /static/css/homestyle.css HTTP/1.1" 304 0
+"GET /users/login/ HTTP/1.1" 200 666
+"GET /users/login/ HTTP/1.1" 200 666
+"GET /static/css/login.css HTTP/1.1" 304 0
+"GET /static/css/login.css HTTP/1.1" 304 0
+Cliente encontrado com email: italo@icloud.com
+Login bem-sucedido para o cliente: italo@icloud.com. Token gerado: dc383a40-afdd-4cfb-afa6-58402b027fcb
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+Requisição para URL: http://www.omdbapi.com/?s=dark&apikey=19cee984 com termo 'dark' e gênero 'Adventure'
+Exibindo filmes fora do gênero.
+"GET /filmes/filmes/ HTTP/1.1" 200 1202
+"GET /filmes/filmes/ HTTP/1.1" 200 1202
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 304 0
