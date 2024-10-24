@@ -525,3 +525,78 @@ Watching for file changes with StatReloader
 /home/fulano/Documents/GitHub/Back-end-web/filmes/views.py changed, reloading.
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\models.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\models.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\models.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\models.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Cliente encontrado com email: italo@icloud.com
+Login bem-sucedido para o cliente: italo@icloud.com. Token gerado: 45bd1181-3fb3-47e5-a6e1-5992c146c232
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+"GET /filmes/ HTTP/1.1" 200 319
+"GET /filmes/ HTTP/1.1" 200 319
+Requisição para URL: http://www.omdbapi.com/?s=light&apikey=19cee984 com termo 'light'
+Filmes encontrados: 10
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5346
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5346
+Filme 'The Light Between Oceans' adicionado à lista pessoal
+"POST /filmes/adicionar_filme_pessoal/tt2547584/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt2547584/ HTTP/1.1" 302 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2066
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2066
+Filme 'All the Light We Cannot See' adicionado à lista pessoal
+"POST /filmes/adicionar_filme_pessoal/tt15320362/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt15320362/ HTTP/1.1" 302 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2531
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2531
+Filme 'The Cold Light of Day' adicionado à lista pessoal
+"POST /filmes/adicionar_filme_pessoal/tt1366365/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt1366365/ HTTP/1.1" 302 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2982
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2982
+Filme 'Winter Light' adicionado à lista pessoal
+"POST /filmes/adicionar_filme_pessoal/tt0057358/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0057358/ HTTP/1.1" 302 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 3409
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 3409
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 3409
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 3409
+Requisição para URL: http://www.omdbapi.com/?s=dark&apikey=19cee984 com termo 'dark'
+Filmes encontrados: 10
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5247
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5247
+Requisição para URL: http://www.omdbapi.com/?s=love&apikey=19cee984 com termo 'love'
+Filmes encontrados: 10
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5378
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5378
+Filme 'Crazy, Stupid, Love.' adicionado à lista pessoal
+"POST /filmes/adicionar_filme_pessoal/tt1570728/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt1570728/ HTTP/1.1" 302 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 3854
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 3854

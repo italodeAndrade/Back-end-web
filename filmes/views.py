@@ -3,7 +3,7 @@ import random
 import requests
 import uuid
 import logging
-from .models import user 
+from .models import Cliente 
 from django.contrib.auth.hashers import check_password
 import uuid
 logger = logging.getLogger(__name__)
@@ -64,11 +64,11 @@ def verificar_senha(request):
         senha = request.POST.get('senha')
 
         try:
-            user = user.objects.get(id=request.user.id)
-        except user.DoesNotExist:
-            return JsonResponse({'success': False, 'error': 'user não encontrado'})
+            cliente = Cliente.objects.get(id=request.cliente.id)
+        except cliente.DoesNotExist:
+            return JsonResponse({'success': False, 'error': 'cliente não encontrado'})
 
-        if check_password(senha, user.senha):
+        if check_password(senha, cliente.senha):
             return JsonResponse({'success': True})
         else:
             return JsonResponse({'success': False, 'error': 'Senha incorreta'})
