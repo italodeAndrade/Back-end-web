@@ -32,14 +32,12 @@ def login(request):
             logger.info(f"Cliente encontrado com email: {email}")
 
             if check_password(senha, cliente.senha):
-                # Gera um token único usando uuid
                 token = str(uuid.uuid4())
                 logger.info(f"Login bem-sucedido para o cliente: {email}. Token gerado: {token}")
-                
-                # Armazena o token na sessão do usuário
+
                 request.session['auth_token'] = token
                 
-                return redirect(reverse('filmes:lista_filmes'))
+                return redirect(reverse('filmes:inicio'))
             else:
                 logger.warning(f"Tentativa de login com senha incorreta para o cliente: {email}")
                 return render(request, 'users/login.html', {'error': 'Senha incorreta'})

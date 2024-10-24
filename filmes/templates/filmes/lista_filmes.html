@@ -1,27 +1,24 @@
 <!DOCTYPE html>
-{% load static %}
-<html lang="pt-BR">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Filmes</title>
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
+    <h1>Lista de Filmes Disponíveis</h1>
 
-    <h1 style="text-align: center; color: red;">Lista de Filmes</h1>
-
-
-    <div class="table-container">
-        <h1>Filmes do gênero: {{ genero }}</h1>
-            <ul>
-                {% for filme in filmes %}
-                    <li>{{ filme.Title }} ({{ filme.Year }})</li>
-                {% endfor %}
-            </ul>
-
-
-    </div>
-
+    <ul>
+        {% for filme in filmes %}
+            <li>
+                {{ filme.Title }} ({{ filme.Year }})
+                <form action="{% url 'filmes:adicionar_filme_pessoal' filme.imdbID %}" method="post">
+                    {% csrf_token %}
+                    <input type="hidden" name="filme_nome" value="{{ filme.Title }}">
+                    <button type="submit">Adicionar à lista pessoal</button>
+                </form>
+            </li>
+        {% endfor %}
+    </ul>
+    
+    <a href="{% url 'filmes:inicio' %}">Voltar</a>
 </body>
 </html>

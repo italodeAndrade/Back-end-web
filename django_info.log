@@ -260,3 +260,268 @@ Exibindo filmes fora do g�nero.
 "GET /filmes/filmes/ HTTP/1.1" 200 1202
 "GET /static/css/styles.css HTTP/1.1" 304 0
 "GET /static/css/styles.css HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Acesso à home.
+"GET / HTTP/1.1" 200 679
+"GET / HTTP/1.1" 200 679
+"GET /static/css/homestyle.css HTTP/1.1" 200 1084
+"GET /static/css/homestyle.css HTTP/1.1" 200 1084
+"GET /users/login/ HTTP/1.1" 200 666
+"GET /users/login/ HTTP/1.1" 200 666
+"GET /static/css/login.css HTTP/1.1" 304 0
+"GET /static/css/login.css HTTP/1.1" 304 0
+Cliente encontrado com email: italo@icloud.com
+Login bem-sucedido para o cliente: italo@icloud.com. Token gerado: ad2f0f2b-12de-449c-908a-fc838377f33e
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+Requisição para URL: http://www.omdbapi.com/?s=light&apikey=19cee984 com termo 'light' e gênero 'Action'
+Exibindo filmes fora do gênero.
+"GET /filmes/filmes/ HTTP/1.1" 200 1244
+"GET /filmes/filmes/ HTTP/1.1" 200 1244
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 304 0
+Requisição para URL: http://www.omdbapi.com/?s=lost&apikey=19cee984 com termo 'lost' e gênero 'Action'
+Exibindo filmes fora do gênero.
+"GET /filmes/filmes/ HTTP/1.1" 200 1220
+"GET /filmes/filmes/ HTTP/1.1" 200 1220
+Requisição para URL: http://www.omdbapi.com/?s=crime&apikey=19cee984 com termo 'crime' e gênero 'Horror'
+Exibindo filmes fora do gênero.
+"GET /filmes/filmes/ HTTP/1.1" 200 1288
+"GET /filmes/filmes/ HTTP/1.1" 200 1288
+Requisição para URL: http://www.omdbapi.com/?s=city&apikey=19cee984 com termo 'city' e gênero 'Sci-Fi'
+Exibindo filmes fora do gênero.
+"GET /filmes/filmes/ HTTP/1.1" 200 1222
+"GET /filmes/filmes/ HTTP/1.1" 200 1222
+Requisição para URL: http://www.omdbapi.com/?s=love&apikey=19cee984 com termo 'love' e gênero 'Horror'
+Exibindo filmes fora do gênero.
+"GET /filmes/filmes/ HTTP/1.1" 200 1262
+"GET /filmes/filmes/ HTTP/1.1" 200 1262
+Requisição para URL: http://www.omdbapi.com/?s=space&apikey=19cee984 com termo 'space' e gênero 'Romance'
+Exibindo filmes fora do gênero.
+"GET /filmes/filmes/ HTTP/1.1" 200 1214
+"GET /filmes/filmes/ HTTP/1.1" 200 1214
+/home/fulano/Documents/GitHub/Back-end-web/filmes/urls.py changed, reloading.
+/home/fulano/Documents/GitHub/Back-end-web/filmes/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/fulano/Documents/GitHub/Back-end-web/filmes/views.py changed, reloading.
+/home/fulano/Documents/GitHub/Back-end-web/filmes/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/fulano/Documents/GitHub/Back-end-web/filmes/views.py changed, reloading.
+/home/fulano/Documents/GitHub/Back-end-web/filmes/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Acesso à home.
+"GET / HTTP/1.1" 200 679
+"GET / HTTP/1.1" 200 679
+"GET /users/login/ HTTP/1.1" 200 666
+"GET /users/login/ HTTP/1.1" 200 666
+Cliente encontrado com email: italo@icloud.com
+Login bem-sucedido para o cliente: italo@icloud.com. Token gerado: 5329f4da-4c72-49a6-81bc-da9c64c0bbdd
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+Requisição para URL: http://www.omdbapi.com/?s=dream&apikey=19cee984 com termo 'dream'
+Filmes encontrados: 10
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 1275
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 1275
+/home/fulano/Documents/GitHub/Back-end-web/users/views.py changed, reloading.
+/home/fulano/Documents/GitHub/Back-end-web/users/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Requisição para URL: http://www.omdbapi.com/?s=space&apikey=19cee984 com termo 'space'
+Filmes encontrados: 10
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 1207
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 1207
+Cliente encontrado com email: italo@icloud.com
+Login bem-sucedido para o cliente: italo@icloud.com. Token gerado: 44a4af6f-195e-4ff2-b7b8-4c866e75650c
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+"GET /filmes/ HTTP/1.1" 200 319
+"GET /filmes/ HTTP/1.1" 200 319
+Cliente encontrado com email: italo@icloud.com
+Login bem-sucedido para o cliente: italo@icloud.com. Token gerado: 18a7570c-08fe-4c67-a7e8-8ec20af16e48
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+"GET /filmes/ HTTP/1.1" 200 319
+"GET /filmes/ HTTP/1.1" 200 319
+Requisição para URL: http://www.omdbapi.com/?s=city&apikey=19cee984 com termo 'city'
+Filmes encontrados: 10
+Internal Server Error: /filmes/lista_filmes/
+Traceback (most recent call last):
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/fulano/Documents/GitHub/Back-end-web/filmes/views.py", line 26, in lista_filmes
+    return render(request, 'filmes/lista_filmes.html', {'filmes': filmes})
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+Internal Server Error: /filmes/lista_filmes/
+Traceback (most recent call last):
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/fulano/Documents/GitHub/Back-end-web/filmes/views.py", line 26, in lista_filmes
+    return render(request, 'filmes/lista_filmes.html', {'filmes': filmes})
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+"GET /filmes/lista_filmes/ HTTP/1.1" 500 160193
+"GET /filmes/lista_filmes/ HTTP/1.1" 500 160193
+Requisição para URL: http://www.omdbapi.com/?s=space&apikey=19cee984 com termo 'space'
+Filmes encontrados: 10
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5261
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5261
+Filme '2001: A Space Odyssey' adicionado à lista pessoal
+"POST /filmes/adicionar_filme_pessoal/tt0062622/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0062622/ HTTP/1.1" 302 0
+Internal Server Error: /filmes/lista_pessoal/
+Traceback (most recent call last):
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/fulano/Documents/GitHub/Back-end-web/filmes/views.py", line 30, in lista_pessoal
+    return render(request, 'filmes/lista_pessoal.html', {'filmes_pessoais': filmes_pessoais})
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+Internal Server Error: /filmes/lista_pessoal/
+Traceback (most recent call last):
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/fulano/Documents/GitHub/Back-end-web/filmes/views.py", line 30, in lista_pessoal
+    return render(request, 'filmes/lista_pessoal.html', {'filmes_pessoais': filmes_pessoais})
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/fulano/Documents/GitHub/Back-end-web/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+"GET /filmes/lista_pessoal/ HTTP/1.1" 500 122382
+"GET /filmes/lista_pessoal/ HTTP/1.1" 500 122382
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Filme '2001: A Space Odyssey' adicionado à lista pessoal
+"POST /filmes/adicionar_filme_pessoal/tt0062622/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0062622/ HTTP/1.1" 302 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 317
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 317
+"GET /filmes/ HTTP/1.1" 200 319
+"GET /filmes/ HTTP/1.1" 200 319
+Acesso à home.
+"GET / HTTP/1.1" 200 679
+"GET / HTTP/1.1" 200 679
+/home/fulano/Documents/GitHub/Back-end-web/filmes/urls.py changed, reloading.
+/home/fulano/Documents/GitHub/Back-end-web/filmes/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/fulano/Documents/GitHub/Back-end-web/users/views.py changed, reloading.
+/home/fulano/Documents/GitHub/Back-end-web/users/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/fulano/Documents/GitHub/Back-end-web/filmes/views.py changed, reloading.
+/home/fulano/Documents/GitHub/Back-end-web/filmes/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/fulano/Documents/GitHub/Back-end-web/filmes/views.py changed, reloading.
+/home/fulano/Documents/GitHub/Back-end-web/filmes/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/fulano/Documents/GitHub/Back-end-web/filmes/views.py changed, reloading.
+/home/fulano/Documents/GitHub/Back-end-web/filmes/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/fulano/Documents/GitHub/Back-end-web/filmes/views.py changed, reloading.
+/home/fulano/Documents/GitHub/Back-end-web/filmes/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/fulano/Documents/GitHub/Back-end-web/filmes/views.py changed, reloading.
+/home/fulano/Documents/GitHub/Back-end-web/filmes/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
