@@ -2,9 +2,31 @@
 <html>
 <head>
     <title>Início</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/homestyle.css' %}">
 </head>
 <body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="{% url 'filmes:inicio' %}" style="color: white; text-decoration: none;">MovieList</a>
+        </div>
+        
+        <div class="user-info">
+            <p>Bem-vindo, {{ username }}!</p>
+            <form action="{% url 'filmes:logout' %}" method="post" style="display:inline;">
+                {% csrf_token %}
+                <button type="submit" class="btn">Logout</button>
+            </form>            
+        </div>
+    </div>
+    
     <h1>Escolha uma opção</h1>
+    
+    {% if user.is_authenticated %}
+        <p>Olá, {{ username }}!</p>
+    {% else %}
+        <p>Você está logado como Usuário anônimo.</p>
+    {% endif %}
     
     <ul>
         <li><a href="{% url 'filmes:lista_filmes' %}">Ver lista de filmes disponíveis</a></li>

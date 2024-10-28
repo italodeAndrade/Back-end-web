@@ -1,5 +1,7 @@
 from django.urls import path
 from . import views
+from django.contrib.auth import views as auth_views
+from .views import user_logout
 
 app_name = 'filmes'
 
@@ -10,4 +12,5 @@ urlpatterns = [
     path('adicionar_filme_pessoal/<str:filme_id>/', views.adicionar_filme_pessoal, name='adicionar_filme_pessoal'),
     path('remover_filme_pessoal/<str:filme_nome>/', views.remover_filme_pessoal, name='remover_filme_pessoal'),
     path('verificar_senha/', views.verificar_senha, name='verificar_senha'),
+    path('logout/', user_logout, name='logout'),
 ]

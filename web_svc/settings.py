@@ -53,6 +53,8 @@ MIDDLEWARE = [
 ]
 
 
+AUTH_USER_MODEL = 'users.Cliente'
+
 ROOT_URLCONF = 'web_svc.urls'
 
 TEMPLATES = [
@@ -120,7 +122,15 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
+
+# Static files (CSS, JavaScript, Images)
+STATIC_URL = '/static/'  # A barra na frente é importante.
+STATICFILES_DIRS = [
+    BASE_DIR / 'users/static',  # Diretório para os arquivos estáticos
+]
+
+SESSION_SAVE_EVERY_REQUEST = True
+LOGIN_URL = '/users/login/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field

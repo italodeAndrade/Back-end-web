@@ -9,12 +9,17 @@
 </head>
 <body>
 
-    <form action="{% url 'users:login'%}" method="post">
+    <form method="POST">
         {% csrf_token %}
-        <input name='email' placeholder="Insira seu email" type="email"> <br><br>
-        <input name='senha' placeholder="Insira sua senha" type="password"> <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+        
+        <label for="password">Senha:</label>
+        <input type="password" name="password" required>
+        
         <button type="submit">Login</button>
     </form>
+    
     
 </body>
 </html>

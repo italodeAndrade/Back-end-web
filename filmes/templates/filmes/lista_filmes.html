@@ -2,20 +2,25 @@
 <html>
 <head>
     <title>Lista de Filmes</title>
+    {% load static %}
+
 </head>
 <body>
-    <h1>Lista de Filmes Disponíveis</h1>
-
+    <h1>Lista de Filmes</h1>
+    
+    <h2>Filmes Externos</h2>
     <ul>
-        {% for filme in filmes %}
+        {% for filme_externo in filmes_externos %}
             <li>
-                {{ filme.Title }} ({{ filme.Year }})
-                <form action="{% url 'filmes:adicionar_filme_pessoal' filme.imdbID %}" method="post">
+                {{ filme_externo.Title }} ({{ filme_externo.Year }})
+                <form action="{% url 'filmes:adicionar_filme_pessoal' filme_externo.imdbID %}" method="post">
                     {% csrf_token %}
-                    <input type="hidden" name="filme_nome" value="{{ filme.Title }}">
+                    <input type="hidden" name="filme_nome" value="{{ filme_externo.Title }}">
                     <button type="submit">Adicionar à lista pessoal</button>
                 </form>
             </li>
+        {% empty %}
+            <p>Nenhum filme encontrado externamente.</p>
         {% endfor %}
     </ul>
     
