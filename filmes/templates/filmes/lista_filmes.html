@@ -3,9 +3,21 @@
 <head>
     <title>Lista de Filmes</title>
     {% load static %}
-
+    <link rel="stylesheet" href="{% static 'css/listafilmes.css' %}">
 </head>
 <body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="{% url 'filmes:inicio' %}" style="color: white; text-decoration: none;">MovieList</a>
+        </div>
+        
+        <div class="user-info">
+            <form action="{% url 'filmes:logout' %}" method="post" style="display:inline;">
+                {% csrf_token %}
+                <button type="submit" class="btn">Logout</button>
+            </form>            
+        </div>
+    </div>
     <h1>Lista de Filmes</h1>
     
     <h2>Filmes Externos</h2>

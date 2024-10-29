@@ -8252,3 +8252,675 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' 
 [2024-10-28 16:52:36.719772] Acesso à home pelo IP: 127.0.0.1
 "GET /users/ HTTP/1.1" 200 679
 "GET /users/ HTTP/1.1" 200 679
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[2024-10-29 14:07:03.152472] Acesso à home pelo IP: 127.0.0.1
+"GET / HTTP/1.1" 200 679
+"GET / HTTP/1.1" 200 679
+"GET /static/css/homestyle.css HTTP/1.1" 200 1153
+"GET /static/css/homestyle.css HTTP/1.1" 200 1153
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2664
+"GET /favicon.ico HTTP/1.1" 404 2664
+"GET /users/register/ HTTP/1.1" 200 996
+"GET /users/register/ HTTP/1.1" 200 996
+"GET /static/css/style.css HTTP/1.1" 200 909
+"GET /static/css/style.css HTTP/1.1" 200 909
+[2024-10-29 14:17:21.638533] Novo cliente registrado: exemplo@gmail.com do IP: 127.0.0.1
+"POST /users/register/ HTTP/1.1" 302 0
+"POST /users/register/ HTTP/1.1" 302 0
+[Login] Método inválido na requisição de login.
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /static/css/login.css HTTP/1.1" 304 0
+"GET /static/css/login.css HTTP/1.1" 304 0
+[Login] Tentativa de login recebida para o email: exemplo@gmail.com
+[Login] Usuário 'exemplo@gmail.com' adicionado ao grupo 'Clientes'
+[Login] Login bem-sucedido para o cliente: exemplo@gmail.com (ID: 21)
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /static/css/homestyle.css HTTP/1.1" 304 0
+"GET /static/css/homestyle.css HTTP/1.1" 304 0
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=city&apikey=19cee984 com termo 'city'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'city'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5320
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5320
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 1672
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 1672
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=light&apikey=19cee984 com termo 'light'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'light'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5372
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5372
+[Adicionar Filme Pessoal] Usuário 'exemplo@gmail.com' adicionou filme 'The Light Between Oceans' à lista pessoal. Total de filmes: 1
+"POST /filmes/adicionar_filme_pessoal/tt2547584/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt2547584/ HTTP/1.1" 302 0
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 1
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2066
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2066
+[Verificar Senha] Usuário 'exemplo@gmail.com' verificando senha.
+[Verificar Senha] Senha incorreta para usuário 'exemplo@gmail.com' (ID: 21)
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+[Verificar Senha] Usuário 'exemplo@gmail.com' verificando senha.
+[Verificar Senha] Senha incorreta para usuário 'exemplo@gmail.com' (ID: 21)
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+[Adicionar Filme Pessoal] Usuário 'exemplo@gmail.com' adicionou filme 'All the Light We Cannot See' à lista pessoal. Total de filmes: 2
+"POST /filmes/adicionar_filme_pessoal/tt15320362/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt15320362/ HTTP/1.1" 302 0
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2531
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2531
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=space&apikey=19cee984 com termo 'space'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'space'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5287
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5287
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=dark&apikey=19cee984 com termo 'dark'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'dark'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5272
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5272
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /static/css/homestyle.css HTTP/1.1" 304 0
+"GET /static/css/homestyle.css HTTP/1.1" 304 0
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+Internal Server Error: /filmes/lista_pessoal/
+Traceback (most recent call last):
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\Desktop\programacao\treino\django\Back-end-web\filmes\views.py", line 49, in lista_pessoal
+    return render(request, 'filmes/lista_pessoal.html', {'filmes_pessoais': filmes_pessoais})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 4: 'static'. Did you forget to register or load this tag?
+Internal Server Error: /filmes/lista_pessoal/
+Traceback (most recent call last):
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\Desktop\programacao\treino\django\Back-end-web\filmes\views.py", line 49, in lista_pessoal
+    return render(request, 'filmes/lista_pessoal.html', {'filmes_pessoais': filmes_pessoais})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\italo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 4: 'static'. Did you forget to register or load this tag?
+"GET /filmes/lista_pessoal/ HTTP/1.1" 500 157719
+"GET /filmes/lista_pessoal/ HTTP/1.1" 500 157719
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2595
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2595
+"GET /static/clistafilmes.css HTTP/1.1" 404 1862
+"GET /static/clistafilmes.css HTTP/1.1" 404 1862
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2595
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2595
+"GET /static/clistafilmes.css HTTP/1.1" 404 1862
+"GET /static/clistafilmes.css HTTP/1.1" 404 1862
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2595
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2595
+"GET /static/clistafilmes.css HTTP/1.1" 404 1862
+"GET /static/clistafilmes.css HTTP/1.1" 404 1862
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2595
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2595
+"GET /static/clistafilmes.css HTTP/1.1" 404 1862
+"GET /static/clistafilmes.css HTTP/1.1" 404 1862
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2595
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2595
+"GET /static/clistafilmes.css HTTP/1.1" 404 1862
+"GET /static/clistafilmes.css HTTP/1.1" 404 1862
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2595
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2595
+"GET /static/clistafilmes.css HTTP/1.1" 404 1862
+"GET /static/clistafilmes.css HTTP/1.1" 404 1862
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2595
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2595
+"GET /static/clistafilmes.css HTTP/1.1" 404 1862
+"GET /static/clistafilmes.css HTTP/1.1" 404 1862
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2594
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2594
+"GET /static/listafilmes.css HTTP/1.1" 404 1859
+"GET /static/listafilmes.css HTTP/1.1" 404 1859
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2594
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2594
+"GET /static/listafilmes.css HTTP/1.1" 404 1859
+"GET /static/listafilmes.css HTTP/1.1" 404 1859
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2594
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2594
+"GET /static/listafilmes.css HTTP/1.1" 404 1859
+"GET /static/listafilmes.css HTTP/1.1" 404 1859
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2596
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2596
+"GET /static/css/homestyle.css HTTP/1.1" 304 0
+"GET /static/css/homestyle.css HTTP/1.1" 304 0
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2596
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2596
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2596
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2596
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2596
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2596
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2596
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2596
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2596
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2596
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[2024-10-29 14:44:52.753725] Acesso à home pelo IP: 127.0.0.1
+"GET / HTTP/1.1" 200 679
+"GET / HTTP/1.1" 200 679
+[Login] Método inválido na requisição de login.
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /users/login/ HTTP/1.1" 200 694
+[Login] Tentativa de login recebida para o email: exemplo@gmail.com
+[Login] Login bem-sucedido para o cliente: exemplo@gmail.com (ID: 21)
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=dark&apikey=19cee984 com termo 'dark'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'dark'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5272
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5272
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2596
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2596
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2596
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2596
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2596
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2596
+[Verificar Senha] Usuário 'exemplo@gmail.com' verificando senha.
+[Verificar Senha] Senha incorreta para usuário 'exemplo@gmail.com' (ID: 21)
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+[Verificar Senha] Usuário 'exemplo@gmail.com' verificando senha.
+[Verificar Senha] Usuário 'exemplo@gmail.com' verificando senha.
+[Verificar Senha] Senha incorreta para usuário 'exemplo@gmail.com' (ID: 21)
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+[Verificar Senha] Usuário 'exemplo@gmail.com' verificando senha.
+[Verificar Senha] Usuário 'exemplo@gmail.com' verificando senha.
+[Verificar Senha] Senha incorreta para usuário 'exemplo@gmail.com' (ID: 21)
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+[Verificar Senha] Senha incorreta para usuário 'exemplo@gmail.com' (ID: 21)
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+[Verificar Senha] Senha incorreta para usuário 'exemplo@gmail.com' (ID: 21)
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1539
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1539
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1542
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1542
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /static/css/homestyle.css HTTP/1.1" 304 0
+"GET /static/css/homestyle.css HTTP/1.1" 304 0
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Verificar Senha] Usuário 'exemplo@gmail.com' verificando senha.
+[Verificar Senha] Usuário 'exemplo@gmail.com' verificando senha.
+[Verificar Senha] Senha incorreta para usuário 'exemplo@gmail.com' (ID: 21)
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+[Verificar Senha] Senha incorreta para usuário 'exemplo@gmail.com' (ID: 21)
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1420
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1420
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1539
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1539
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1539
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1539
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1539
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1539
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1539
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1539
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1542
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1542
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1542
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1542
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=lost&apikey=19cee984 com termo 'lost'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'lost'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5308
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5308
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=love&apikey=19cee984 com termo 'love'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'love'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5466
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5466
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=future&apikey=19cee984 com termo 'future'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'future'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5394
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5394
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1627
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1627
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /static/css/homestyle.css HTTP/1.1" 304 0
+"GET /static/css/homestyle.css HTTP/1.1" 304 0
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2598
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=city&apikey=19cee984 com termo 'city'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'city'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5382
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5382
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Adicionar Filme Pessoal] Usuário 'exemplo@gmail.com' adicionou filme 'City of God' à lista pessoal. Total de filmes: 3
+"POST /filmes/adicionar_filme_pessoal/tt0317248/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0317248/ HTTP/1.1" 302 0
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 3
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 3025
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 3025
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=light&apikey=19cee984 com termo 'light'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'light'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5434
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5434
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Adicionar Filme Pessoal] Usuário 'exemplo@gmail.com' adicionou filme 'The Light Between Oceans' à lista pessoal. Total de filmes: 4
+"POST /filmes/adicionar_filme_pessoal/tt2547584/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt2547584/ HTTP/1.1" 302 0
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 3480
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 3480
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=love&apikey=19cee984 com termo 'love'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'love'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5466
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5466
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=dark&apikey=19cee984 com termo 'dark'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'dark'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5335
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5335
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=war&apikey=19cee984 com termo 'war'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'war'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5897
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5897
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4054
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4054
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4054
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4054
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1627
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1627
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=space&apikey=19cee984 com termo 'space'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'space'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5923
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5923
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=light&apikey=19cee984 com termo 'light'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'light'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6008
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6008
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1999
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1999
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=light&apikey=19cee984 com termo 'light'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'light'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6008
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6008
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4054
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4054
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=love&apikey=19cee984 com termo 'love'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'love'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6040
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6040
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=crime&apikey=19cee984 com termo 'crime'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'crime'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6082
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6082
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Adicionar Filme Pessoal] Usuário 'exemplo@gmail.com' adicionou filme 'American Crime Story' à lista pessoal. Total de filmes: 5
+"POST /filmes/adicionar_filme_pessoal/tt2788432/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt2788432/ HTTP/1.1" 302 0
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 5
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4499
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4499
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 5
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4499
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4499
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1994
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1994
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 5
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4499
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4499
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1994
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1994
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 5
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4499
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4499
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1994
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1994
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 5
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4499
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4499
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1993
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1993
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 5
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4499
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4499
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 5
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4499
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4499
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1988
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1988
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 5
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4499
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4499
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1993
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1993
+[Logout] Usuário 'exemplo@gmail.com' fez logout.
+"POST /filmes/logout/ HTTP/1.1" 302 0
+"POST /filmes/logout/ HTTP/1.1" 302 0
+[2024-10-29 14:59:40.619450] Acesso à home pelo IP: 127.0.0.1
+"GET /users/ HTTP/1.1" 200 679
+"GET /users/ HTTP/1.1" 200 679
+"GET /static/css/homestyle.css HTTP/1.1" 304 0
+"GET /static/css/homestyle.css HTTP/1.1" 304 0
+[Login] Método inválido na requisição de login.
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /users/login/ HTTP/1.1" 200 694
+[Login] Tentativa de login recebida para o email: exemplo@gmail.com
+[Login] Login bem-sucedido para o cliente: exemplo@gmail.com (ID: 21)
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=crime&apikey=19cee984 com termo 'crime'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'crime'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6082
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6082
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=war&apikey=19cee984 com termo 'war'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'war'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5897
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5897
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=city&apikey=19cee984 com termo 'city'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'city'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5956
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5956
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=light&apikey=19cee984 com termo 'light'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'light'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6008
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6008
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2281
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2281
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=space&apikey=19cee984 com termo 'space'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'space'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5923
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5923
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=lost&apikey=19cee984 com termo 'lost'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'lost'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5913
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5913
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=crime&apikey=19cee984 com termo 'crime'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'crime'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6050
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6050
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2281
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2281
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Logout] Usuário 'exemplo@gmail.com' fez logout.
+"POST /filmes/logout/ HTTP/1.1" 302 0
+"POST /filmes/logout/ HTTP/1.1" 302 0
+[2024-10-29 15:02:14.318705] Acesso à home pelo IP: 127.0.0.1
+"GET /users/ HTTP/1.1" 200 679
+"GET /users/ HTTP/1.1" 200 679
+[Login] Método inválido na requisição de login.
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /users/login/ HTTP/1.1" 200 694
+[Login] Tentativa de login recebida para o email: exemplo@gmail.com
+[Login] Login bem-sucedido para o cliente: exemplo@gmail.com (ID: 21)
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Pessoal] Usuário 'exemplo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2281
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2281
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Início] Usuário 'exemplo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Filmes] Usuário 'exemplo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=love&apikey=19cee984 com termo 'love'
+[Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'love'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6008
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6008
