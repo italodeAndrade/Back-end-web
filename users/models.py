@@ -41,13 +41,13 @@ class Cliente(AbstractBaseUser, PermissionsMixin):
 
     groups = models.ManyToManyField(
         'auth.Group',
-        related_name='clientes',  # Adicione um nome único aqui
+        related_name='clientes',  
         blank=True
     )
 
     user_permissions = models.ManyToManyField(
         'auth.Permission',
-        related_name='clientes',  # Adicione um nome único aqui
+        related_name='clientes',  
         blank=True
     )
 

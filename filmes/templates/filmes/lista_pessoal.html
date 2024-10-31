@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="{% static 'css/listafilmes.css' %}">
     <title>Minha Lista de Filmes</title>
     <script>
+
         function exibirCampoSenha() {
             document.getElementById('form-autenticacao').style.display = 'block';
         }
@@ -18,18 +19,22 @@
                     'Content-Type': 'application/json',
                     'X-CSRFToken': '{{ csrf_token }}'
                 },
-                body: JSON.stringify({ senha: senha })
+                body: JSON.stringify({ password: senha })  
             })
             .then(response => response.json())
             .then(data => {
                 if (data.success) {
-                    document.getElementById('botao-remover').disabled = false;
                     document.getElementById('mensagem').textContent = "Autenticação bem-sucedida!";
+                    document.querySelectorAll('#botao-remover').forEach(botao => {
+                        botao.disabled = false; 
+                    });
                 } else {
                     document.getElementById('mensagem').textContent = "Senha incorreta.";
                 }
             });
         }
+        
+            
     </script>
 </head>
 <body>
@@ -58,8 +63,8 @@
     <ul>
         {% for filme in filmes_pessoais %}
             <li>
-                {{ filme }}
-                <form action="{% url 'filmes:remover_filme_pessoal' filme %}" method="post">
+                {{ filme.nome }}
+                <form action="{% url 'filmes:remover_filme_pessoal' filme.nome|urlencode %}" method="post">
                     {% csrf_token %}
                     <button type="submit" id="botao-remover" disabled>Remover da lista</button>
                 </form>
@@ -68,6 +73,7 @@
             <li>Sua lista pessoal está vazia.</li>
         {% endfor %}
     </ul>
+    
 
     <a href="{% url 'filmes:inicio' %}">Voltar para o Início</a>
 </body>

@@ -8924,3 +8924,1032 @@ Watching for file changes with StatReloader
 [Lista Filmes] Usuário 'exemplo@gmail.com' encontrou 10 filmes com termo 'love'
 "GET /filmes/lista_filmes/ HTTP/1.1" 200 6008
 "GET /filmes/lista_filmes/ HTTP/1.1" 200 6008
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[2024-10-30 01:23:06.267199] Acesso à home pelo IP: 127.0.0.1
+"GET / HTTP/1.1" 200 679
+"GET / HTTP/1.1" 200 679
+"GET /static/css/homestyle.css HTTP/1.1" 200 1153
+"GET /static/css/homestyle.css HTTP/1.1" 200 1153
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2664
+"GET /favicon.ico HTTP/1.1" 404 2664
+[Login] Método inválido na requisição de login.
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /static/css/login.css HTTP/1.1" 200 973
+"GET /static/css/login.css HTTP/1.1" 200 973
+[Login] Tentativa de login recebida para o email: otavio@gmail.com
+[Login] Login bem-sucedido para o cliente: otavio@gmail.com (ID: 19)
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=love&apikey=19cee984 com termo 'love'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'love'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6008
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6008
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1993
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1993
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2281
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2281
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+"GET /static/css/listafilmes.css HTTP/1.1" 304 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=dark&apikey=19cee984 com termo 'dark'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'dark'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5877
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5877
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou filme 'The Dark Knight Rises' à lista pessoal. Total de filmes: 1
+"POST /filmes/adicionar_filme_pessoal/tt1345836/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt1345836/ HTTP/1.1" 302 0
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 1
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2669
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2669
+[Verificar Senha] Usuário 'otavio@gmail.com' verificando senha.
+[Verificar Senha] Senha incorreta para usuário 'otavio@gmail.com' (ID: 19)
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[2024-10-31 13:25:26.415418] Acesso à home pelo IP: 127.0.0.1
+"GET / HTTP/1.1" 200 679
+"GET / HTTP/1.1" 200 679
+"GET /static/css/homestyle.css HTTP/1.1" 200 1153
+"GET /static/css/homestyle.css HTTP/1.1" 200 1153
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2664
+"GET /favicon.ico HTTP/1.1" 404 2664
+[Login] Método inválido na requisição de login.
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /static/css/login.css HTTP/1.1" 200 973
+"GET /static/css/login.css HTTP/1.1" 200 973
+[Login] Tentativa de login recebida para o email: otavio@gmail.com
+[Login] Login bem-sucedido para o cliente: otavio@gmail.com (ID: 19)
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 1
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2669
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2669
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1993
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1993
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 1
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2669
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2669
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 1
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2669
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2669
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 1
+Internal Server Error: /filmes/lista_pessoal/
+Traceback (most recent call last):
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\Documents\Back-end-web\filmes\views.py", line 49, in lista_pessoal
+    return render(request, 'filmes/lista_pessoal.html', {'filmes_pessoais': filmes_pessoais})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'remover_filme_pessoal' with arguments '('',)' not found. 1 pattern(s) tried: ['filmes/remover_filme_pessoal/(?P<filme_nome>[^/]+)/\\Z']
+Internal Server Error: /filmes/lista_pessoal/
+Traceback (most recent call last):
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\Documents\Back-end-web\filmes\views.py", line 49, in lista_pessoal
+    return render(request, 'filmes/lista_pessoal.html', {'filmes_pessoais': filmes_pessoais})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'remover_filme_pessoal' with arguments '('',)' not found. 1 pattern(s) tried: ['filmes/remover_filme_pessoal/(?P<filme_nome>[^/]+)/\\Z']
+"GET /filmes/lista_pessoal/ HTTP/1.1" 500 143417
+"GET /filmes/lista_pessoal/ HTTP/1.1" 500 143417
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 1
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2669
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2669
+C:\Users\otavi\Documents\Back-end-web\filmes\urls.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 1
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2660
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2660
+[Remover Filme Pessoal] Usuário 'otavio@gmail.com' removeu o filme 'The Dark Knight Rises' da lista pessoal. Total de filmes: 0
+"POST /filmes/remover_filme_pessoal/The%20Dark%20Knight%20Rises/ HTTP/1.1" 302 0
+"POST /filmes/remover_filme_pessoal/The%20Dark%20Knight%20Rises/ HTTP/1.1" 302 0
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2281
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2281
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2281
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2281
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2281
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2281
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=lost&apikey=19cee984 com termo 'lost'
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=space&apikey=19cee984 com termo 'space'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'lost'
+- Broken pipe from ('127.0.0.1', 55197)
+- Broken pipe from ('127.0.0.1', 55197)
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'space'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5891
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5891
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou filme '2001: A Space Odyssey' à lista pessoal. Total de filmes: 1
+"POST /filmes/adicionar_filme_pessoal/tt0062622/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0062622/ HTTP/1.1" 302 0
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 1
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2660
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2660
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=dream&apikey=19cee984 com termo 'dream'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'dream'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6049
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6049
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou filme 'A Nightmare on Elm Street 3: Dream Warriors' à lista pessoal. Total de filmes: 2
+"POST /filmes/adicionar_filme_pessoal/tt0093629/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0093629/ HTTP/1.1" 302 0
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 3152
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 3152
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 2
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 3152
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 3152
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=love&apikey=19cee984 com termo 'love'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'love'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6008
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6008
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou filme 'Love Actually' à lista pessoal. Total de filmes: 3
+Internal Server Error: /filmes/adicionar_filme_pessoal/tt0314331/
+Traceback (most recent call last):
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view filmes.views.adicionar_filme_pessoal didn't return an HttpResponse object. It returned None instead.
+Internal Server Error: /filmes/adicionar_filme_pessoal/tt0314331/
+Traceback (most recent call last):
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\otavi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view filmes.views.adicionar_filme_pessoal didn't return an HttpResponse object. It returned None instead.
+"POST /filmes/adicionar_filme_pessoal/tt0314331/ HTTP/1.1" 500 68077
+"POST /filmes/adicionar_filme_pessoal/tt0314331/ HTTP/1.1" 500 68077
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou filme 'Love Actually' à lista pessoal. Total de filmes: 3
+"POST /filmes/adicionar_filme_pessoal/tt0314331/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0314331/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=dream&apikey=19cee984 com termo 'dream'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'dream'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6049
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6049
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou filme 'Dream Scenario' à lista pessoal. Total de filmes: 4
+"POST /filmes/adicionar_filme_pessoal/tt21942866/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt21942866/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=city&apikey=19cee984 com termo 'city'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'city'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5924
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5924
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou filme 'City of God' à lista pessoal. Total de filmes: 5
+"POST /filmes/adicionar_filme_pessoal/tt0317248/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0317248/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=love&apikey=19cee984 com termo 'love'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'love'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6008
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6008
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou filme 'Thor: Love and Thunder' à lista pessoal. Total de filmes: 6
+"POST /filmes/adicionar_filme_pessoal/tt10648342/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt10648342/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=dream&apikey=19cee984 com termo 'dream'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'dream'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6049
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6049
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 6
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4854
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4854
+[Verificar Senha] Usuário 'otavio@gmail.com' verificando senha.
+[Verificar Senha] Senha incorreta para usuário 'otavio@gmail.com' (ID: 19)
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 6
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4998
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4998
+[Logout] Usuário 'otavio@gmail.com' fez logout.
+"POST /filmes/logout/ HTTP/1.1" 302 0
+"POST /filmes/logout/ HTTP/1.1" 302 0
+[2024-10-31 13:37:41.795336] Acesso à home pelo IP: 127.0.0.1
+"GET /users/ HTTP/1.1" 200 679
+"GET /users/ HTTP/1.1" 200 679
+[Login] Método inválido na requisição de login.
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /users/login/ HTTP/1.1" 200 694
+[Login] Tentativa de login recebida para o email: otavio@gmail.com
+[Login] Login bem-sucedido para o cliente: otavio@gmail.com (ID: 19)
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2371
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2371
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=dark&apikey=19cee984 com termo 'dark'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'dark'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5877
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5877
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou filme 'The Dark Knight' à lista pessoal. Total de filmes: 1
+"POST /filmes/adicionar_filme_pessoal/tt0468569/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0468569/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=war&apikey=19cee984 com termo 'war'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'war'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5865
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5865
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou filme 'Avengers: Infinity War' à lista pessoal. Total de filmes: 2
+"POST /filmes/adicionar_filme_pessoal/tt4154756/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt4154756/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=space&apikey=19cee984 com termo 'space'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'space'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5891
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5891
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou filme '2001: A Space Odyssey' à lista pessoal. Total de filmes: 3
+"POST /filmes/adicionar_filme_pessoal/tt0062622/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0062622/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=dream&apikey=19cee984 com termo 'dream'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'dream'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6049
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6049
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou filme 'Requiem for a Dream' à lista pessoal. Total de filmes: 4
+"POST /filmes/adicionar_filme_pessoal/tt0180093/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0180093/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=crime&apikey=19cee984 com termo 'crime'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'crime'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6050
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6050
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou filme 'American Crime Story' à lista pessoal. Total de filmes: 5
+"POST /filmes/adicionar_filme_pessoal/tt2788432/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt2788432/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=light&apikey=19cee984 com termo 'light'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'light'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5976
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5976
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 5
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4533
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4533
+[Logout] Usuário 'otavio@gmail.com' fez logout.
+"POST /filmes/logout/ HTTP/1.1" 302 0
+"POST /filmes/logout/ HTTP/1.1" 302 0
+[2024-10-31 13:38:15.948267] Acesso à home pelo IP: 127.0.0.1
+"GET /users/ HTTP/1.1" 200 679
+"GET /users/ HTTP/1.1" 200 679
+[Login] Método inválido na requisição de login.
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /users/login/ HTTP/1.1" 200 694
+[Login] Tentativa de login recebida para o email: otavio@gmail.com
+[Login] Login bem-sucedido para o cliente: otavio@gmail.com (ID: 19)
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2371
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2371
+C:\Users\otavi\Documents\Back-end-web\filmes\models.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\models.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[Logout] Usuário 'otavio@gmail.com' fez logout.
+"POST /filmes/logout/ HTTP/1.1" 302 0
+"POST /filmes/logout/ HTTP/1.1" 302 0
+[2024-10-31 13:41:16.724398] Acesso à home pelo IP: 127.0.0.1
+"GET /users/ HTTP/1.1" 200 679
+"GET /users/ HTTP/1.1" 200 679
+[2024-10-31 13:41:18.504657] Acesso à home pelo IP: 127.0.0.1
+"GET /users/ HTTP/1.1" 200 679
+"GET /users/ HTTP/1.1" 200 679
+[Login] Método inválido na requisição de login.
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /users/login/ HTTP/1.1" 200 694
+[Login] Tentativa de login recebida para o email: otavio@gmail.com
+[Login] Login bem-sucedido para o cliente: otavio@gmail.com (ID: 19)
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2376
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2376
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=light&apikey=19cee984 com termo 'light'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'light'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5976
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5976
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou o filme 'The Light Between Oceans' à lista pessoal.
+"POST /filmes/adicionar_filme_pessoal/tt2547584/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt2547584/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=city&apikey=19cee984 com termo 'city'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'city'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5924
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5924
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou o filme 'City of God' à lista pessoal.
+"POST /filmes/adicionar_filme_pessoal/tt0317248/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0317248/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=city&apikey=19cee984 com termo 'city'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'city'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5924
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5924
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou o filme 'Sin City' à lista pessoal.
+"POST /filmes/adicionar_filme_pessoal/tt0401792/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0401792/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=lost&apikey=19cee984 com termo 'lost'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'lost'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5913
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5913
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou o filme 'Lost in Translation' à lista pessoal.
+"POST /filmes/adicionar_filme_pessoal/tt0335266/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0335266/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=space&apikey=19cee984 com termo 'space'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'space'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5891
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5891
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4059
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4059
+[Logout] Usuário 'otavio@gmail.com' fez logout.
+"POST /filmes/logout/ HTTP/1.1" 302 0
+"POST /filmes/logout/ HTTP/1.1" 302 0
+[2024-10-31 13:41:40.665832] Acesso à home pelo IP: 127.0.0.1
+"GET /users/ HTTP/1.1" 200 679
+"GET /users/ HTTP/1.1" 200 679
+[Login] Método inválido na requisição de login.
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /users/login/ HTTP/1.1" 200 694
+[Login] Tentativa de login recebida para o email: otavio@gmail.com
+[Login] Login bem-sucedido para o cliente: otavio@gmail.com (ID: 19)
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4059
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4059
+[Verificar Senha] Usuário 'otavio@gmail.com' verificando senha.
+[Verificar Senha] Senha incorreta para usuário 'otavio@gmail.com' (ID: 19)
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 46
+[Logout] Usuário 'otavio@gmail.com' fez logout.
+"POST /filmes/logout/ HTTP/1.1" 302 0
+"POST /filmes/logout/ HTTP/1.1" 302 0
+[2024-10-31 13:43:54.610382] Acesso à home pelo IP: 127.0.0.1
+"GET /users/ HTTP/1.1" 200 679
+"GET /users/ HTTP/1.1" 200 679
+[Login] Método inválido na requisição de login.
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /users/login/ HTTP/1.1" 200 694
+[Login] Tentativa de login recebida para o email: italo@gmail.com
+[Login] Login bem-sucedido para o cliente: italo@gmail.com (ID: 20)
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+[Início] Usuário 'italo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Pessoal] Usuário 'italo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2376
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2376
+[Lista Filmes] Usuário 'italo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=future&apikey=19cee984 com termo 'future'
+[Lista Filmes] Usuário 'italo@gmail.com' encontrou 10 filmes com termo 'future'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5936
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5936
+[Adicionar Filme Pessoal] Usuário 'italo@gmail.com' adicionou o filme 'Back to the Future Part III' à lista pessoal.
+"POST /filmes/adicionar_filme_pessoal/tt0099088/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0099088/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'italo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=future&apikey=19cee984 com termo 'future'
+[Lista Filmes] Usuário 'italo@gmail.com' encontrou 10 filmes com termo 'future'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5936
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5936
+[Adicionar Filme Pessoal] Usuário 'italo@gmail.com' adicionou o filme 'Back to the Future Part II' à lista pessoal.
+"POST /filmes/adicionar_filme_pessoal/tt0096874/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0096874/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'italo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=future&apikey=19cee984 com termo 'future'
+[Lista Filmes] Usuário 'italo@gmail.com' encontrou 10 filmes com termo 'future'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5936
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5936
+[Adicionar Filme Pessoal] Usuário 'italo@gmail.com' adicionou o filme 'Crimes of the Future' à lista pessoal.
+"POST /filmes/adicionar_filme_pessoal/tt14549466/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt14549466/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'italo@gmail.com' requisitou URL: http://www.omdbapi.com/?s=crime&apikey=19cee984 com termo 'crime'
+[Lista Filmes] Usuário 'italo@gmail.com' encontrou 10 filmes com termo 'crime'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6050
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6050
+[Lista Pessoal] Usuário 'italo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 3
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 3690
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 3690
+[Logout] Usuário 'italo@gmail.com' fez logout.
+"POST /filmes/logout/ HTTP/1.1" 302 0
+"POST /filmes/logout/ HTTP/1.1" 302 0
+[2024-10-31 13:44:18.476511] Acesso à home pelo IP: 127.0.0.1
+"GET /users/ HTTP/1.1" 200 679
+"GET /users/ HTTP/1.1" 200 679
+[Login] Método inválido na requisição de login.
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /users/login/ HTTP/1.1" 200 694
+[Login] Tentativa de login recebida para o email: otavio@gmail.com
+[Login] Login bem-sucedido para o cliente: otavio@gmail.com (ID: 19)
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=light&apikey=19cee984 com termo 'light'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'light'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5976
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5976
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4059
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4059
+[Logout] Usuário 'otavio@gmail.com' fez logout.
+"POST /filmes/logout/ HTTP/1.1" 302 0
+"POST /filmes/logout/ HTTP/1.1" 302 0
+[2024-10-31 13:44:31.386299] Acesso à home pelo IP: 127.0.0.1
+"GET /users/ HTTP/1.1" 200 679
+"GET /users/ HTTP/1.1" 200 679
+[Login] Método inválido na requisição de login.
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /users/login/ HTTP/1.1" 200 694
+[Login] Tentativa de login recebida para o email: sds@g.c
+[Login] Email não encontrado: sds@g.c
+"POST /users/login/ HTTP/1.1" 200 694
+"POST /users/login/ HTTP/1.1" 200 694
+[Login] Método inválido na requisição de login.
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /users/login/ HTTP/1.1" 200 694
+[Logout] Tentativa de logout por usuário não autenticado.
+"POST /filmes/logout/ HTTP/1.1" 302 0
+"POST /filmes/logout/ HTTP/1.1" 302 0
+[2024-10-31 13:44:41.481456] Acesso à home pelo IP: 127.0.0.1
+"GET /users/ HTTP/1.1" 200 679
+"GET /users/ HTTP/1.1" 200 679
+C:\Users\otavi\Documents\Back-end-web\filmes\urls.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[Login] Método inválido na requisição de login.
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /users/login/ HTTP/1.1" 200 694
+[Login] Tentativa de login recebida para o email: otavio@gmail.com
+[Login] Login bem-sucedido para o cliente: otavio@gmail.com (ID: 19)
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4313
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4313
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+C:\Users\otavi\Documents\Back-end-web\users\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4313
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4313
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4313
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4313
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4131
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4131
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4093
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4093
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 17
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 17
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[2024-10-31 16:33:16.703634] Acesso à home pelo IP: 127.0.0.1
+"GET / HTTP/1.1" 200 679
+"GET / HTTP/1.1" 200 679
+"GET /static/css/homestyle.css HTTP/1.1" 200 1153
+"GET /static/css/homestyle.css HTTP/1.1" 200 1153
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2664
+"GET /favicon.ico HTTP/1.1" 404 2664
+[Login] Método inválido na requisição de login.
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /static/css/login.css HTTP/1.1" 200 973
+"GET /static/css/login.css HTTP/1.1" 200 973
+[Login] Tentativa de login recebida para o email: otavio@gmail.com
+[Login] Login bem-sucedido para o cliente: otavio@gmail.com (ID: 19)
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4093
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4093
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1993
+"GET /static/css/listafilmes.css HTTP/1.1" 200 1993
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4177
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4177
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 17
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 17
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4177
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4177
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 17
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 17
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4174
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4174
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4190
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4190
+[Verificar Senha] Senha não fornecida para usuário 'otavio@gmail.com'.
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 56
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4190
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4190
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 17
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 17
+[Remover Filme Pessoal] Tentativa de remover o filme 'The%20Light%20Between%20Oceans' para o usuário 'otavio@gmail.com'. Lista atual: []
+[Remover Filme Pessoal] Usuário 'otavio@gmail.com' tentou remover filme 'The%20Light%20Between%20Oceans' que não está na lista pessoal.
+"POST /filmes/remover_filme_pessoal/The%2520Light%2520Between%2520Oceans/ HTTP/1.1" 302 0
+"POST /filmes/remover_filme_pessoal/The%2520Light%2520Between%2520Oceans/ HTTP/1.1" 302 0
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4190
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4190
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 17
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 17
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4190
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4190
+[Remover Filme Pessoal] Tentativa de remover o filme 'Sin%20City' para o usuário 'otavio@gmail.com'. Lista atual: []
+[Remover Filme Pessoal] Usuário 'otavio@gmail.com' tentou remover filme 'Sin%20City' que não está na lista pessoal.
+"POST /filmes/remover_filme_pessoal/Sin%2520City/ HTTP/1.1" 302 0
+"POST /filmes/remover_filme_pessoal/Sin%2520City/ HTTP/1.1" 302 0
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 4
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4190
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 4190
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=future&apikey=19cee984 com termo 'future'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'future'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5936
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5936
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou o filme 'Back to the Future Part III' à lista pessoal.
+"POST /filmes/adicionar_filme_pessoal/tt0099088/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0099088/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=lost&apikey=19cee984 com termo 'lost'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'lost'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5913
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5913
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou o filme 'The Lost World: Jurassic Park' à lista pessoal.
+"POST /filmes/adicionar_filme_pessoal/tt0119567/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0119567/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=city&apikey=19cee984 com termo 'city'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'city'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5924
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5924
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 6
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 5144
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 5144
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 17
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 17
+[Remover Filme Pessoal] Tentativa de remover o filme 'Back%20to%20the%20Future%20Part%20III' para o usuário 'otavio@gmail.com'. Lista atual: []
+[Remover Filme Pessoal] Usuário 'otavio@gmail.com' tentou remover filme 'Back%20to%20the%20Future%20Part%20III' que não está na lista pessoal.
+"POST /filmes/remover_filme_pessoal/Back%2520to%2520the%2520Future%2520Part%2520III/ HTTP/1.1" 302 0
+"POST /filmes/remover_filme_pessoal/Back%2520to%2520the%2520Future%2520Part%2520III/ HTTP/1.1" 302 0
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 6
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 5144
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 5144
+C:\Users\otavi\Documents\Back-end-web\users\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[Logout] Usuário 'otavio@gmail.com' fez logout.
+"POST /filmes/logout/ HTTP/1.1" 302 0
+"POST /filmes/logout/ HTTP/1.1" 302 0
+[2024-10-31 16:38:35.914498] Acesso à home pelo IP: 127.0.0.1
+"GET /users/ HTTP/1.1" 200 679
+"GET /users/ HTTP/1.1" 200 679
+[Login] Método inválido na requisição de login.
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /users/login/ HTTP/1.1" 200 694
+[Login] Tentativa de login recebida para o email: otavio@gmail.com
+[Login] Login bem-sucedido para o cliente: otavio@gmail.com (ID: 19)
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2491
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2491
+[Início] Usuário 'otavio@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1014
+"GET /filmes/ HTTP/1.1" 200 1014
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=dream&apikey=19cee984 com termo 'dream'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'dream'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6049
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 6049
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou o filme 'Dream House' à lista pessoal.
+"POST /filmes/adicionar_filme_pessoal/tt1462041/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt1462041/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=lost&apikey=19cee984 com termo 'lost'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'lost'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5913
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5913
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou o filme 'The Lost World: Jurassic Park' à lista pessoal.
+"POST /filmes/adicionar_filme_pessoal/tt0119567/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0119567/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=war&apikey=19cee984 com termo 'war'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'war'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5865
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5865
+[Adicionar Filme Pessoal] Usuário 'otavio@gmail.com' adicionou o filme 'War of the Worlds' à lista pessoal.
+"POST /filmes/adicionar_filme_pessoal/tt0407304/ HTTP/1.1" 302 0
+"POST /filmes/adicionar_filme_pessoal/tt0407304/ HTTP/1.1" 302 0
+[Lista Filmes] Usuário 'otavio@gmail.com' requisitou URL: http://www.omdbapi.com/?s=city&apikey=19cee984 com termo 'city'
+[Lista Filmes] Usuário 'otavio@gmail.com' encontrou 10 filmes com termo 'city'
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5924
+"GET /filmes/lista_filmes/ HTTP/1.1" 200 5924
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 0
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2491
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 2491
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 9
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 6497
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 6497
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 17
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 17
+[Remover Filme Pessoal] Tentativa de remover o filme 'The%20Lost%20World%3A%20Jurassic%20Park' para o usuário 'otavio@gmail.com'. Lista atual: []
+[Remover Filme Pessoal] Usuário 'otavio@gmail.com' tentou remover filme 'The%20Lost%20World%3A%20Jurassic%20Park' que não está na lista pessoal.
+"POST /filmes/remover_filme_pessoal/The%2520Lost%2520World%253A%2520Jurassic%2520Park/ HTTP/1.1" 302 0
+"POST /filmes/remover_filme_pessoal/The%2520Lost%2520World%253A%2520Jurassic%2520Park/ HTTP/1.1" 302 0
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 9
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 6497
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 6497
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 9
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 6497
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 6497
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 9
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 6497
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 6497
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 9
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 6497
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 6497
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 17
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 17
+[Remover Filme Pessoal] Tentativa de remover o filme 'The%20Light%20Between%20Oceans' para o usuário 'otavio@gmail.com'. Lista atual: []
+[Remover Filme Pessoal] Usuário 'otavio@gmail.com' tentou remover filme 'The%20Light%20Between%20Oceans' que não está na lista pessoal.
+"POST /filmes/remover_filme_pessoal/The%2520Light%2520Between%2520Oceans/ HTTP/1.1" 302 0
+"POST /filmes/remover_filme_pessoal/The%2520Light%2520Between%2520Oceans/ HTTP/1.1" 302 0
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 9
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 6497
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 6497
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 9
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 6497
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 6497
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 17
+"POST /filmes/verificar_senha/ HTTP/1.1" 200 17
+[Remover Filme Pessoal] Tentativa de remover o filme 'The%20Light%20Between%20Oceans' para o usuário 'otavio@gmail.com'. Lista atual: 0
+[Remover Filme Pessoal] Usuário 'otavio@gmail.com' tentou remover filme 'The%20Light%20Between%20Oceans' que não está na lista pessoal.
+"POST /filmes/remover_filme_pessoal/The%2520Light%2520Between%2520Oceans/ HTTP/1.1" 302 0
+"POST /filmes/remover_filme_pessoal/The%2520Light%2520Between%2520Oceans/ HTTP/1.1" 302 0
+[Lista Pessoal] Usuário 'otavio@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 9
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 6497
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 6497
+[Logout] Usuário 'otavio@gmail.com' fez logout.
+"POST /filmes/logout/ HTTP/1.1" 302 0
+"POST /filmes/logout/ HTTP/1.1" 302 0
+[2024-10-31 16:40:35.079349] Acesso à home pelo IP: 127.0.0.1
+"GET /users/ HTTP/1.1" 200 679
+"GET /users/ HTTP/1.1" 200 679
+[Login] Método inválido na requisição de login.
+"GET /users/login/ HTTP/1.1" 200 694
+"GET /users/login/ HTTP/1.1" 200 694
+[Login] Tentativa de login recebida para o email: italo@gmail.com
+[Login] Login bem-sucedido para o cliente: italo@gmail.com (ID: 20)
+"POST /users/login/ HTTP/1.1" 302 0
+"POST /users/login/ HTTP/1.1" 302 0
+[Início] Usuário 'italo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Lista Pessoal] Usuário 'italo@gmail.com' acessou a lista pessoal de filmes. Total de filmes: 3
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 3831
+"GET /filmes/lista_pessoal/ HTTP/1.1" 200 3831
+[Início] Usuário 'italo@gmail.com' acessou a página inicial de filmes.
+"GET /filmes/ HTTP/1.1" 200 1012
+"GET /filmes/ HTTP/1.1" 200 1012
+[Logout] Usuário 'italo@gmail.com' fez logout.
+"POST /filmes/logout/ HTTP/1.1" 302 0
+"POST /filmes/logout/ HTTP/1.1" 302 0
+[2024-10-31 16:40:49.507906] Acesso à home pelo IP: 127.0.0.1
+"GET /users/ HTTP/1.1" 200 679
+"GET /users/ HTTP/1.1" 200 679
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\filmes\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\users\views.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\users\models.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\users\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\otavi\Documents\Back-end-web\users\forms.py changed, reloading.
+C:\Users\otavi\Documents\Back-end-web\users\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader

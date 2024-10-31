@@ -4,10 +4,13 @@ import requests
 from django.shortcuts import render, redirect
 from django.http import JsonResponse, HttpResponseForbidden
 from django.contrib.auth.hashers import check_password
-from .models import Cliente, Filme
+from .models import Cliente, Filme, FilmePessoal
 from django.urls import reverse
 from django.contrib.auth.decorators import login_required
-
+import logging
+from django.contrib.auth import logout
+from django.http import HttpResponseForbidden
+import json  
 logger = logging.getLogger(__name__)
 def get_username(request):
     return request.user.email if request.user.is_authenticated else "Usuário anônimo"
@@ -43,7 +46,7 @@ def lista_pessoal(request):
         logger.warning(f"[Lista Pessoal] Usuário '{request.user.email}' não pertence ao grupo 'Clientes'. Acesso negado.")
         return HttpResponseForbidden("Acesso negado.")
     
-    filmes_pessoais = request.session.get('filmes_pessoais', [])
+    filmes_pessoais = FilmePessoal.objects.filter(usuario=request.user)
     username = get_username(request)
     logger.info(f"[Lista Pessoal] Usuário '{username}' acessou a lista pessoal de filmes. Total de filmes: {len(filmes_pessoais)}")
     return render(request, 'filmes/lista_pessoal.html', {'filmes_pessoais': filmes_pessoais})
@@ -54,56 +57,48 @@ def adicionar_filme_pessoal(request, filme_id):
         logger.warning(f"[Adicionar Filme Pessoal] Usuário '{request.user.email}' não pertence ao grupo 'Clientes'. Acesso negado.")
         return HttpResponseForbidden("Acesso negado.")
     
-    filme = request.POST.get('filme_nome')
-    filmes_pessoais = request.session.get('filmes_pessoais', [])
-    filmes_pessoais.append(filme)
-    request.session['filmes_pessoais'] = filmes_pessoais
-
-    username = get_username(request)
-    logger.info(f"[Adicionar Filme Pessoal] Usuário '{username}' adicionou filme '{filme}' à lista pessoal. Total de filmes: {len(filmes_pessoais)}")
+    nome_filme = request.POST.get('filme_nome')
     
-    return redirect('filmes:lista_pessoal')
+    if nome_filme:
+        FilmePessoal.objects.create(usuario=request.user, nome=nome_filme)
+        logger.info(f"[Adicionar Filme Pessoal] Usuário '{request.user.email}' adicionou o filme '{nome_filme}' à lista pessoal.")
+    
+    return redirect('filmes:lista_filmes')
 
 @login_required
 def remover_filme_pessoal(request, filme_nome):
-    if not request.user.groups.filter(name='Clientes').exists():
-        logger.warning(f"[Remover Filme Pessoal] Usuário '{request.user.email}' não pertence ao grupo 'Clientes'. Acesso negado.")
-        return HttpResponseForbidden("Acesso negado.")
-
     filmes_pessoais = request.session.get('filmes_pessoais', [])
     username = get_username(request)
-    
+
+    logger.info(f"[Remover Filme Pessoal] Tentativa de remover o filme '{filme_nome}' para o usuário '{username}'. Lista atual: {len(filmes_pessoais)}")
+
     if filme_nome in filmes_pessoais:
         filmes_pessoais.remove(filme_nome)
         request.session['filmes_pessoais'] = filmes_pessoais
-        logger.info(f"[Remover Filme Pessoal] Usuário '{username}' removeu o filme '{filme_nome}' da lista pessoal. Total de filmes: {len(filmes_pessoais)}")
+        logger.info(f"[Remover Filme Pessoal] Usuário '{username}' removeu o filme '{filme_nome}' da lista pessoal.")
     else:
         logger.warning(f"[Remover Filme Pessoal] Usuário '{username}' tentou remover filme '{filme_nome}' que não está na lista pessoal.")
-    
+
     return redirect('filmes:lista_pessoal')
 
-@login_required
+
 def verificar_senha(request):
     if request.method == 'POST':
-        senha = request.POST.get('senha')
-        username = get_username(request)
 
-        if not request.user.is_authenticated:
-            logger.error(f"[Verificar Senha] Usuário não autenticado tentou verificar senha.")
-            return JsonResponse({'success': False, 'error': 'Usuário não autenticado.'})
+        data = json.loads(request.body) 
+        senha = data.get('password')
 
-        cliente = request.user
-        logger.info(f"[Verificar Senha] Usuário '{username}' verificando senha.")
+        if not senha:
+            return JsonResponse({'success': False, 'error': 'Senha não fornecida.'})
 
-        if check_password(senha, cliente.password):
-            logger.info(f"[Verificar Senha] Senha verificada com sucesso para usuário '{username}' (ID: {cliente.id})")
+        if check_password(senha, request.user.password):
             return JsonResponse({'success': True})
         else:
-            logger.warning(f"[Verificar Senha] Senha incorreta para usuário '{username}' (ID: {cliente.id})")
             return JsonResponse({'success': False, 'error': 'Senha incorreta'})
 
-    logger.error(f"[Verificar Senha] Usuário '{username}' realizou uma requisição de método inválido")
     return JsonResponse({'success': False, 'error': 'Método inválido'})
+
+    
 
 def inicio(request):
     if request.user.is_authenticated:
@@ -116,11 +111,6 @@ def inicio(request):
         logger.warning("[Início] Usuário não autenticado. Acesso negado.")
 
     return HttpResponseForbidden("Acesso negado.")
-import logging
-from django.shortcuts import redirect
-from django.contrib.auth import logout
-from django.http import HttpResponseForbidden
-
 
 def user_logout(request):
     if request.user.is_authenticated:

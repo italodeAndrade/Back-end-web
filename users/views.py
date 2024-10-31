@@ -43,15 +43,9 @@ def login(request):
         try:
             cliente = Cliente.objects.get(email=email)
 
-            if check_password(password, cliente.password):  # Verifica a senha
-                auth_login(request, cliente)  # Loga o cliente
-                
-                # Certifique-se de que o grupo 'Clientes' existe
-                clientes_group, created = Group.objects.get_or_create(name='Clientes')
-                if not cliente.groups.filter(name='Clientes').exists():
-                    cliente.groups.add(clientes_group)
-                    logger.info(f"[Login] Usuário '{email}' adicionado ao grupo 'Clientes'")
-
+            if check_password(password, cliente.password): 
+                auth_login(request, cliente)  
+                request.session['filmes_pessoais'] = []
                 logger.info(f"[Login] Login bem-sucedido para o cliente: {email} (ID: {cliente.id})")
                 return redirect(reverse('filmes:inicio'))
             else:
@@ -64,6 +58,7 @@ def login(request):
 
     logger.error("[Login] Método inválido na requisição de login.")
     return render(request, 'users/login.html', {'error': 'Método inválido'})
+
 
 
 
