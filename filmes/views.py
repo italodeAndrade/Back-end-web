@@ -60,26 +60,42 @@ def adicionar_filme_pessoal(request, filme_id):
     nome_filme = request.POST.get('filme_nome')
     
     if nome_filme:
-        FilmePessoal.objects.create(usuario=request.user, nome=nome_filme)
-        logger.info(f"[Adicionar Filme Pessoal] Usuário '{request.user.email}' adicionou o filme '{nome_filme}' à lista pessoal.")
-    
+        try:
+            FilmePessoal.objects.create(usuario=request.user, nome=nome_filme)
+            logger.info(f"[Adicionar Filme Pessoal] Usuário '{request.user.email}' adicionou o filme '{nome_filme}' à lista pessoal.")
+        except Exception as e:
+            logger.error(f"[Adicionar Filme Pessoal] Erro ao adicionar o filme '{nome_filme}' para o usuário '{request.user.email}': {str(e)}")
+    else:
+        logger.warning(f"[Adicionar Filme Pessoal] Nenhum nome de filme fornecido para o usuário '{request.user.email}'.")
+
     return redirect('filmes:lista_filmes')
+
+
+from urllib.parse import unquote
 
 @login_required
 def remover_filme_pessoal(request, filme_nome):
-    filmes_pessoais = request.session.get('filmes_pessoais', [])
-    username = get_username(request)
+    if not request.user.groups.filter(name='Clientes').exists():
+        logger.warning(f"[Remover Filme Pessoal] Usuário '{request.user.email}' não pertence ao grupo 'Clientes'. Acesso negado.")
+        return HttpResponseForbidden("Acesso negado.")
+    
+    filme_nome_decodificado = unquote(filme_nome)
+    email_usuario = request.user.email
 
-    logger.info(f"[Remover Filme Pessoal] Tentativa de remover o filme '{filme_nome}' para o usuário '{username}'. Lista atual: {len(filmes_pessoais)}")
+    logger.info(f"[Remover Filme Pessoal] Tentativa de remover o filme '{filme_nome_decodificado}' para o usuário '{email_usuario}'.")
 
-    if filme_nome in filmes_pessoais:
-        filmes_pessoais.remove(filme_nome)
-        request.session['filmes_pessoais'] = filmes_pessoais
-        logger.info(f"[Remover Filme Pessoal] Usuário '{username}' removeu o filme '{filme_nome}' da lista pessoal.")
-    else:
-        logger.warning(f"[Remover Filme Pessoal] Usuário '{username}' tentou remover filme '{filme_nome}' que não está na lista pessoal.")
+    try:
+        filme = FilmePessoal.objects.get(usuario=request.user, nome=filme_nome_decodificado)
+        filme.delete()
+        logger.info(f"[Remover Filme Pessoal] Usuário '{email_usuario}' removeu o filme '{filme_nome_decodificado}' da lista pessoal.")
+    except FilmePessoal.DoesNotExist:
+        logger.warning(f"[Remover Filme Pessoal] Usuário '{email_usuario}' tentou remover filme '{filme_nome_decodificado}' que não está na lista pessoal.")
+    except Exception as e:
+        logger.error(f"[Remover Filme Pessoal] Erro ao remover o filme '{filme_nome_decodificado}' para o usuário '{email_usuario}': {str(e)}")
 
     return redirect('filmes:lista_pessoal')
+
+
 
 
 def verificar_senha(request):

@@ -23,7 +23,9 @@ def register(request):
     if request.method == 'POST':
         form = ClienteForm(request.POST)
         if form.is_valid():
-            form.save()
+            cliente = form.save()
+            group = Group.objects.get(name='Clientes')
+            cliente.groups.add(group)  
             logger.info(f"[{datetime.now()}] Novo cliente registrado: {form.cleaned_data['email']} do IP: {request.META.get('REMOTE_ADDR')}")
             return redirect('users:login')
         else:
@@ -31,6 +33,7 @@ def register(request):
     else:
         form = ClienteForm()
     return render(request, 'users/register.html', {'form': form})
+
 
 
 def login(request):
