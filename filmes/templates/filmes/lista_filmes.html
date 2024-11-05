@@ -19,7 +19,17 @@
         </div>
     </div>
     <h1>Lista de Filmes</h1>
-    
+
+    <h2>Filtrar Filmes</h2>
+    <form method="get" action="{% url 'filmes:lista_filmes' %}">
+        <label for="order">Ordenar por:</label>
+        <select name="order" id="order" onchange="this.form.submit()">
+            <option value="aleatorio" {% if order == 'aleatorio' %}selected{% endif %}>Aleatório</option>
+            <option value="ano" {% if order == 'ano' %}selected{% endif %}>Ano de Lançamento (Mais Antigo)</option>
+            <option value="titulo" {% if order == 'titulo' %}selected{% endif %}>Título</option>
+        </select>
+    </form>
+
     <h2>Filmes Externos</h2>
     <ul>
         {% for filme_externo in filmes_externos %}
@@ -35,6 +45,7 @@
             <p>Nenhum filme encontrado externamente.</p>
         {% endfor %}
     </ul>
+    
     
     <a href="{% url 'filmes:inicio' %}">Voltar</a>
 </body>

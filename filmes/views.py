@@ -11,6 +11,7 @@ import logging
 from django.contrib.auth import logout
 from django.http import HttpResponseForbidden
 import json  
+from urllib.parse import unquote
 logger = logging.getLogger(__name__)
 def get_username(request):
     return request.user.email if request.user.is_authenticated else "Usuário anônimo"
@@ -20,7 +21,7 @@ def lista_filmes(request):
     if not request.user.groups.filter(name='Clientes').exists():
         logger.warning(f"[Lista Filmes] Usuário '{request.user.email}' não pertence ao grupo 'Clientes'. Acesso negado.")
         return HttpResponseForbidden("Acesso negado.")
-    
+
     key_words = ['space', 'love', 'war', 'future', 'dark', 'light', 'dream', 'city', "lost", "crime"]
     termo = random.choice(key_words)
     url = f'http://www.omdbapi.com/?s={termo}&apikey=19cee984'
@@ -33,12 +34,24 @@ def lista_filmes(request):
         data = response.json()
         filmes_externos = data.get('Search', [])
         logger.info(f"[Lista Filmes] Usuário '{user}' encontrou {len(filmes_externos)} filmes com termo '{termo}'")
+
+
+        order = request.GET.get('order', 'aleatorio')
+
+        if order == 'titulo':
+            filmes_externos.sort(key=lambda x: x['Title'])  
+        elif order == 'ano':
+            filmes_externos.sort(key=lambda x: int(x['Year'].split('–')[0])) 
+
     else:
         filmes_externos = []
         logger.error(f"[Lista Filmes] Usuário '{user}' encontrou erro na requisição para URL {url}: Status {response.status_code}")
 
-    filmes = Filme.objects.all()
-    return render(request, 'filmes/lista_filmes.html', {'filmes': filmes, 'filmes_externos': filmes_externos})
+    return render(request, 'filmes/lista_filmes.html', {
+        'filmes_externos': filmes_externos,
+        'order': order
+    })
+
 
 @login_required
 def lista_pessoal(request):
@@ -60,18 +73,20 @@ def adicionar_filme_pessoal(request, filme_id):
     nome_filme = request.POST.get('filme_nome')
     
     if nome_filme:
-        try:
-            FilmePessoal.objects.create(usuario=request.user, nome=nome_filme)
-            logger.info(f"[Adicionar Filme Pessoal] Usuário '{request.user.email}' adicionou o filme '{nome_filme}' à lista pessoal.")
-        except Exception as e:
-            logger.error(f"[Adicionar Filme Pessoal] Erro ao adicionar o filme '{nome_filme}' para o usuário '{request.user.email}': {str(e)}")
+        if FilmePessoal.objects.filter(usuario=request.user, nome=nome_filme).exists():
+            logger.warning(f"[Adicionar Filme Pessoal] O filme '{nome_filme}' já está na lista pessoal do usuário '{request.user.email}'.")
+            return redirect('filmes:lista_filmes') 
+        else:
+            try:
+                FilmePessoal.objects.create(usuario=request.user, nome=nome_filme)
+                logger.info(f"[Adicionar Filme Pessoal] Usuário '{request.user.email}' adicionou o filme '{nome_filme}' à lista pessoal.")
+            except Exception as e:
+                logger.error(f"[Adicionar Filme Pessoal] Erro ao adicionar o filme '{nome_filme}' para o usuário '{request.user.email}': {str(e)}")
     else:
         logger.warning(f"[Adicionar Filme Pessoal] Nenhum nome de filme fornecido para o usuário '{request.user.email}'.")
 
     return redirect('filmes:lista_filmes')
 
-
-from urllib.parse import unquote
 
 @login_required
 def remover_filme_pessoal(request, filme_nome):
@@ -136,4 +151,3 @@ def user_logout(request):
         logger.warning("[Logout] Tentativa de logout por usuário não autenticado.")
     
     return redirect('users:home')  
-
